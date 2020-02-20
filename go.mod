@@ -47,6 +47,8 @@ require (
 	github.com/go-ole/go-ole v1.2.1 // indirect
 	github.com/go-redis/redis v6.12.0+incompatible
 	github.com/go-sql-driver/mysql v1.4.1
+	github.com/goburrow/modbus v0.1.0
+	github.com/goburrow/serial v0.1.0 // indirect
 	github.com/gobwas/glob v0.2.3
 	github.com/gofrs/uuid v2.1.0+incompatible
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
@@ -101,16 +103,16 @@ require (
 	github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
 	github.com/prometheus/client_model v0.0.0-20190115171406-56726106282f
 	github.com/prometheus/common v0.2.0
-	github.com/safchain/ethtool v0.0.0-20190326074333-42ed695e3de8
+	github.com/safchain/ethtool v0.0.0-20200128171343-ef7e7c9c2763
 	github.com/samuel/go-zookeeper v0.0.0-20180130194729-c4fab1ac1bec // indirect
 	github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b // indirect
-	github.com/shirou/gopsutil v2.19.11+incompatible
-	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
+	github.com/shirou/gopsutil v2.20.1+incompatible
 	github.com/shopspring/decimal v0.0.0-20200105231215-408a2507e114 // indirect
 	github.com/sirupsen/logrus v1.2.0
 	github.com/soniah/gosnmp v1.22.0
 	github.com/streadway/amqp v0.0.0-20180528204448-e5adc2ada8b8
 	github.com/stretchr/testify v1.4.0
+	github.com/tbrandon/mbserver v0.0.0-20170611213546-993e1772cc62
 	github.com/tedsuo/ifrit v0.0.0-20191009134036-9a97d0632f00 // indirect
 	github.com/tidwall/gjson v1.3.0
 	github.com/vishvananda/netlink v0.0.0-20171020171820-b2de5d10e38e // indirect
@@ -124,7 +126,7 @@ require (
 	golang.org/x/crypto v0.0.0-20200214034016-1d94cc7ab1c6 // indirect
 	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	golang.org/x/oauth2 v0.0.0-20190226205417-e64efc72b421
-	golang.org/x/sys v0.0.0-20190826190057-c7b8b68b1456
+	golang.org/x/sys v0.0.0-20200212091648-12a6c2dcc1e4
 	gonum.org/v1/gonum v0.6.2 // indirect
 	google.golang.org/api v0.5.0
 	google.golang.org/genproto v0.0.0-20190522204451-c2c4e71fbf69
