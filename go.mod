@@ -52,7 +52,7 @@ require (
 	github.com/gogo/protobuf v1.2.2-0.20190723190241-65acae22fc9d
 	github.com/golang/mock v1.3.1-0.20190508161146-9fa652df1129 // indirect
 	github.com/golang/protobuf v1.3.2
-	github.com/google/go-cmp v0.3.1
+	github.com/google/go-cmp v0.4.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gorilla/mux v1.6.2
@@ -137,6 +137,9 @@ require (
 	gotest.tools v2.2.0+incompatible // indirect
 	k8s.io/apimachinery v0.17.1 // indirect
 )
+
+// replaced due to https://github.com/satori/go.uuid/issues/73
+replace github.com/satori/go.uuid => github.com/gofrs/uuid v3.2.0+incompatible
 
 // Set the Azure Event Hub log abstraction to the Telegraf format:
 replace github.com/devigned/tab => github.com/R290/tab v0.1.2
